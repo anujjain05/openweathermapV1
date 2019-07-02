@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Verifies that all important information",
+        "description": "",
+        "id": "openweather-testing;to-verifies-that-all-important-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17995291722,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser and enter the URL",
+            "match": {
+              "location": "HomePageTest.user_open_the_browser_and_enter_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97306819,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the Home page Title",
+            "match": {
+              "location": "HomePageTest.verify_the_Home_page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 539281,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.qa.stepDefinations.HomePageTest.verify_the_Wheather_label_is_visible(HomePageTest.java:31)\r\n\tat ✽.Then verify the Wheather label is visible(C:/Users/jain.anuj/workspace/openweathermap/src/main/java/com/qa/features/openweather.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "verify the Wheather label is visible",
+            "match": {
+              "location": "HomePageTest.verify_the_Wheather_label_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "verify the Map label is visible",
+            "match": {
+              "location": "HomePageTest.verify_the_Map_label_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "verify the Guide label is visible",
+            "match": {
+              "location": "HomePageTest.verify_the_Guide_label_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "verify the Price label is visible",
+            "match": {
+              "location": "HomePageTest.verify_the_Price_label_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "verify the Partners label is visible",
+            "match": {
+              "location": "HomePageTest.verify_the_Partners_label_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "verify the Solutions label is visible",
+            "match": {
+              "location": "HomePageTest.verify_the_Solutions_label_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "verify the Widgets label is visible",
+            "match": {
+              "location": "HomePageTest.verify_the_Widgets_label_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the Blog label is visible",
+            "match": {
+              "location": "HomePageTest.verify_the_Blog_label_is_visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Openweather Testing",
+    "description": "",
+    "id": "openweather-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/jain.anuj/workspace/openweathermap/src/main/java/com/qa/features/openweather.feature"
+  }
+]

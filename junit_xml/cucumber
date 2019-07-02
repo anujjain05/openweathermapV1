@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.093138">
+<testcase classname="Openweather Testing" name="To Verifies that all important information" time="18.093138">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.qa.stepDefinations.HomePageTest.verify_the_Wheather_label_is_visible(HomePageTest.java:31)&#13;&#10;&#9;at ✽.Then verify the Wheather label is visible(C:/Users/jain.anuj/workspace/openweathermap/src/main/java/com/qa/features/openweather.feature:7)&#13;&#10;"><![CDATA[Given User open the browser and enter the URL...............................passed
+Then Verify the Home page Title.............................................passed
+Then verify the Wheather label is visible...................................failed
+Then verify the Map label is visible........................................skipped
+Then verify the Guide label is visible......................................skipped
+Then verify the Price label is visible......................................skipped
+Then verify the Partners label is visible...................................skipped
+Then verify the Solutions label is visible..................................skipped
+Then verify the Widgets label is visible....................................skipped
+Then verify the Blog label is visible.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.qa.stepDefinations.HomePageTest.verify_the_Wheather_label_is_visible(HomePageTest.java:31)
+	at ✽.Then verify the Wheather label is visible(C:/Users/jain.anuj/workspace/openweathermap/src/main/java/com/qa/features/openweather.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

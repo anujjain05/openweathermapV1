@@ -1,0 +1,16 @@
+<extentreports>
+	<configuration>
+		<theme>Standard</theme>
+		<encoding>UTF-8</encoding>
+		<protocol>https</protocol>
+		<dateformat>dd:MM:yyyy</dateformat>
+		<timeformat>HH:mm:ss</timeformat>
+		<!-- JavaScript -->
+<![CDATA[
+$(document).readyfunction(){}]]>
+		<!-- Style Sheet -->
+		<![CDATA[
+		]]>
+
+	</configuration>
+</extentreports>
