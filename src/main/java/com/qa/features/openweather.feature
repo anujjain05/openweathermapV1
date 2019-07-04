@@ -2,7 +2,7 @@ Feature: Openweather Testing
 
 Scenario: To Verifies that all important information
 
-Given Open the Browser and enter tha URL
+Given Open the Browser and enter the URL
 Then Verify Home page Title
 Then verify the Wheather label is visible
 Then verify the Map label is visible
