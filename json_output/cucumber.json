@@ -12,33 +12,25 @@
         "steps": [
           {
             "result": {
-              "duration": 17995291722,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 5,
             "name": "User open the browser and enter the URL",
-            "match": {
-              "location": "HomePageTest.user_open_the_browser_and_enter_the_URL()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 97306819,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "Verify the Home page Title",
-            "match": {
-              "location": "HomePageTest.verify_the_Home_page_Title()"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 539281,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.qa.stepDefinations.HomePageTest.verify_the_Wheather_label_is_visible(HomePageTest.java:31)\r\n\tat ✽.Then verify the Wheather label is visible(C:/Users/jain.anuj/workspace/openweathermap/src/main/java/com/qa/features/openweather.feature:7)\r\n",
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "verify the Wheather label is visible",

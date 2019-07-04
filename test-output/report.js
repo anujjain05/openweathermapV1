@@ -64,27 +64,19 @@ formatter.step({
   "name": "verify the Blog label is visible",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "HomePageTest.user_open_the_browser_and_enter_the_URL()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 17995291722,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "HomePageTest.verify_the_Home_page_Title()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 97306819,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "location": "HomePageTest.verify_the_Wheather_label_is_visible()"
 });
 formatter.result({
-  "duration": 539281,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.qa.stepDefinations.HomePageTest.verify_the_Wheather_label_is_visible(HomePageTest.java:31)\r\n\tat ✽.Then verify the Wheather label is visible(C:/Users/jain.anuj/workspace/openweathermap/src/main/java/com/qa/features/openweather.feature:7)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "HomePageTest.verify_the_Map_label_is_visible()"

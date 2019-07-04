@@ -1,27 +1,26 @@
 package com.qa.stepDefinations;
 
 
-
-import org.junit.Assert;
-
 import com.qa.pages.HomePage;
 import com.qa.utility.TestBase;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import junit.framework.Assert;
+
 
 public class HomePageTest extends TestBase {
 	HomePage homepage;
 	
 	
-	@Given("^User open the browser and enter the URL$")
-	public void user_open_the_browser_and_enter_the_URL(){
+	@Given("^User open browser and enter URL$")
+	public void user_open_browser_and_enter_URL(){
 		TestBase.initialization();
 
 	}
 
-	@Then("^Verify the Home page Title$")
-	public void verify_the_Home_page_Title(){
+	@Then("^Verify Home page Title$")
+	public void verify_Home_page_Title(){
 //		if(driver.getTitle().equals("Сurrent weather and forecast - OpenWeatherMap"));
 //		Assert.assertTrue(true);
 		Assert.assertTrue(homepage.validateTitle().equals("Сurrent weather and forecast - OpenWeatherMap"));
